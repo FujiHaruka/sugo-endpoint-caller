@@ -1,0 +1,37 @@
+{
+  "name": "sugo-endpoint-caller",
+  "version": "1.0.0",
+  "description": "Client for sugo-enpoint-actor",
+  "main": "lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "FujiHaruka/sugo-endpoint-caller",
+  "keywords": [
+    "SUGOS"
+  ],
+  "author": {
+    "name": "Fuji Haruka",
+    "email": "fujiharuka@realglobe.jp",
+    "url": "https://github.com/FujiHaruka"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FujiHaruka/sugo-endpoint-caller/issues"
+  },
+  "homepage": "https://github.com/FujiHaruka/sugo-endpoint-caller#readme",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "devDependencies": {
+    "sugo-actor": "^4.7.5",
+    "sugo-endpoint-actor": "^1.0.2",
+    "sugo-hub": "^5.4.3"
+  },
+  "dependencies": {
+    "case": "^1.5.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}
